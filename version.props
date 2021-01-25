@@ -1,5 +1,5 @@
 <Project>
   <PropertyGroup>
-    <PackageVersion>5.0.0</PackageVersion>
+    <PackageVersion>5.0.1-rc0</PackageVersion>
   </PropertyGroup>
 </Project>

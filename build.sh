@@ -1,8 +1,8 @@
 cd src
 
-curl https://www.gaia-gis.it/gaia-sins/libspatialite-5.0.0.tar.gz | tar -xz
+curl https://www.gaia-gis.it/gaia-sins/libspatialite-5.0.1-rc0.tar.gz | tar -xz
 
-cd libspatialite-5.0.0
+cd libspatialite-5.0.1-rc0
 
 if [[ `uname -s` == MINGW* ]]; then
     sed -i configure.ac -e "s|mingw32|${MINGW_CHOST}|g"
